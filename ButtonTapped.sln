@@ -11,11 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonTapped.iOS", "ButtonT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonTapped.UWP", "ButtonTapped\ButtonTapped.UWP\ButtonTapped.UWP.csproj", "{5A498795-74D4-4C47-ABBD-2C11AB76B7C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonTapped.Wasm", "ButtonTapped\ButtonTapped.Wasm\ButtonTapped.Wasm.csproj", "{C36AD0C1-26BD-4E19-8810-FB26EBC06E1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonTapped.Wasm", "ButtonTapped\ButtonTapped.Wasm\ButtonTapped.Wasm.csproj", "{C36AD0C1-26BD-4E19-8810-FB26EBC06E1D}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ButtonTapped\ButtonTapped.Shared\ButtonTapped.Shared.projitems*{4d0bfe16-e9e1-40cb-895c-471103395ef3}*SharedItemsImports = 4
+		ButtonTapped\ButtonTapped.Shared\ButtonTapped.Shared.projitems*{5a498795-74d4-4c47-abbd-2c11ab76b7c5}*SharedItemsImports = 4
 		ButtonTapped\ButtonTapped.Shared\ButtonTapped.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		ButtonTapped\ButtonTapped.Shared\ButtonTapped.Shared.projitems*{ce3371b5-1c16-466f-a6fc-57425e6cba33}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
